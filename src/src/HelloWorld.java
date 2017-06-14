@@ -51,6 +51,7 @@ public class HelloWorld {
 		System.out.println("Hello World!");
 		System.out.println("git hub!!!!test");
 		System.out.println("aaaaa");
+		System.out.println("²âÊÔgitµÄ");
 	}
 
 	
