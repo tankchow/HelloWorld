@@ -52,6 +52,7 @@ public class HelloWorld {
 		System.out.println("kitty kitty");
 		System.out.println("!!!!!!");
 		System.out.println("push之后提交 ，amend");
+		System.out.println("能commit，但是push出错，重新修改和提交");
 	}
 
 	static int lambdaFun(Adder value, int x, int y) {
