@@ -52,6 +52,7 @@ public class HelloWorld {
 		System.out.println("git hub!!!!test");
 		System.out.println("aaaaa");
 		System.out.println("²âÊÔgitµÄ");
+		System.out.println("di6cigengxin");
 	}
 
 	
