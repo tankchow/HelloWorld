@@ -48,8 +48,6 @@ public class HelloWorld {
 //		listPerson.sort(Comparator.comparing(p -> p.getAge()));
 //		listPerson.sort(Comparator.comparing(Person::getName));
 
-		System.out.println("Hello World!");
-
 	}
 
 	
