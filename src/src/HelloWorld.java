@@ -47,9 +47,7 @@ public class HelloWorld {
 //		listPerson.add(new Person("xiaoxiao", 23));
 //		listPerson.sort(Comparator.comparing(p -> p.getAge()));
 //		listPerson.sort(Comparator.comparing(Person::getName));
-
-		System.out.println("Hello World!");
-
+		System.out.println("hello hello hello");
 	}
 
 	
