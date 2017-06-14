@@ -55,7 +55,8 @@ public class HelloWorld {
 		System.out.println("能commit，但是push出错，重新修改和提交");
 		System.out.println("测试reset---1");
 		System.out.println("测试reset---2");
-		
+		System.out.println("测试reset---3");
+
 	}
 
 	static int lambdaFun(Adder value, int x, int y) {
