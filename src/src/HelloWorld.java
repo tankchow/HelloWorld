@@ -56,6 +56,7 @@ public class HelloWorld {
 		System.out.println("≤‚ ‘reset---1");
 		System.out.println("≤‚ ‘reset---2");
 		System.out.println("≤‚ ‘push÷Æ∫Ûµƒreset--1");
+		System.out.println("pull ß∞‹--REVERTING_RESOLVED");
 		
 	}
 
