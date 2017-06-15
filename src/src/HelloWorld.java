@@ -55,10 +55,10 @@ public class HelloWorld {
 		System.out.println("能commit，但是push出错，重新修改和提交");
 		System.out.println("测试reset---1");
 		System.out.println("测试reset---2");
-		System.out.println("测试reset---3");
-		
+		System.out.println("测试reset---3");		
 		System.out.println("测试push之后的reset--1");
 		System.out.println("pull失败--REVERTING_RESOLVED");
+		System.out.println("push to upstream");
 		
 	}
 
