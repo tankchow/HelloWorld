@@ -1,4 +1,4 @@
-package src;
+package zlh.test.hello;
 
 public class ClassTest {
 	int add(int x, int y) {

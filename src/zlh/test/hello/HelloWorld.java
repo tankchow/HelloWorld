@@ -1,4 +1,4 @@
-package src;
+package zlh.test.hello;
 
 /**
  * 这是我的第一个java程序 <br>

@@ -1,4 +1,4 @@
-package src;
+package zlh.test.hello;
 
 public class Person {
 	private String name;
