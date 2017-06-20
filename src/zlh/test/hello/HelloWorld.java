@@ -1,5 +1,7 @@
 package zlh.test.hello;
 
+import org.apache.log4j.Logger;
+
 /**
  * 这是我的第一个java程序 <br>
  * 這個類是HelloWorld <br>
@@ -8,8 +10,10 @@ package zlh.test.hello;
  * @author ZhouLinhua <br>
  */
 public class HelloWorld {
+	
+	private static Logger logger=Logger.getLogger(HelloWorld.class);
+	
 	public static void main(String[] args) {
-
 		// //枚举测试
 		// System.out.println(MyColorsEnum.RED.value());
 
@@ -57,8 +61,15 @@ public class HelloWorld {
 		System.out.println("测试reset---2");
 		System.out.println("测试reset---3");		
 		System.out.println("测试push之后的reset--1");
-		System.out.println("pull失败--REVERTING_RESOLVED");
+		System.out.println("pull失败--REVERTING_RESOLVED");		
 		System.out.println("push to upstream");
+		
+		logger.fatal("logger.fatal");
+		logger.error("logger.error");
+		logger.warn("logger.warn");
+		logger.info("logger.info");
+		logger.debug("logger.debug");
+		logger.trace("logger.trace");
 		
 	}
 
