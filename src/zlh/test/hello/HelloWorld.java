@@ -63,6 +63,7 @@ public class HelloWorld {
 		System.out.println("测试push之后的reset--1");
 		System.out.println("pull失败--REVERTING_RESOLVED");		
 		System.out.println("push to upstream");
+		System.out.println("改了github上的项目名称");
 		
 		logger.fatal("logger.fatal");
 		logger.error("logger.error");
