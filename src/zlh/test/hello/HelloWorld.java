@@ -13,9 +13,11 @@ import org.slf4j.LoggerFactory;
  */
 public class HelloWorld {
 	
-	//log4j
+	//单纯使用log4j
 	//private static Logger logger=Logger.getLogger(HelloWorld.class);
-	//logback
+	
+	//使用slf4j接口，实现可以是logback或者是log4j
+	//使用slf4j+log4j，只要添加引用slf4j-log4j12-1.7.25.jar即可
 	private static Logger logger=LoggerFactory.getLogger(HelloWorld.class);
 	public static void main(String[] args) {
 		// //枚举测试

@@ -15,7 +15,7 @@
 		</layout>
 		<!--filter过滤器设置输出的级别:ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF 所有下面输出的是debug到warn不会有error和fatal -->
 		<filter class="org.apache.log4j.varia.LevelRangeFilter">
-			<param name="levelMin" value="ERROR" />
+			<param name="levelMin" value="TRACE" />
 			<param name="levelMax" value="FATAL" />
 			<param name="AcceptOnMatch" value="true" />  <!-- 答案：http://bbs.csdn.net/topics/350195913 -->
 		</filter>
@@ -26,7 +26,7 @@
 		<param name="File" value="./logs/common-default.log" />  <!-- ${webapp.root}项目根路径，自动获得，不用配置，可自己在web.xml中配置 -->
 		<param name="Append" value="true" />  <!-- 是否项目重启继续保存之前日志 -->
 		<param name="encoding" value="GBK" />
-		<param name="threshold" value="ERROR" /> <!-- 记录所有类型日志，记录它和比它等级高的日志all<debug -->
+		<param name="threshold" value="ALL" /> <!-- 记录所有类型日志，记录它和比它等级高的日志all<debug -->
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />  <!-- 日期格式 例子：common-default.log.2015-09-17.log -->
 		<layout class="org.apache.log4j.PatternLayout">  <!-- 输出方式 -->
 			<param name="ConversionPattern"
@@ -90,7 +90,7 @@
 	<!-- Root Logger -->
 	<!-- 所有logger的父类，记录所有的日志。 -->
 	<root>
-		<level value="ERROR" ></level>  <!-- 限定记录等级 -->
+		<level value="TRACE" ></level>  <!-- 限定记录等级 -->
 		<appender-ref ref="DEFAULT-APPENDER" />  <!-- 调用记录方式 -->
 		<appender-ref ref="console" />
 	</root>
