@@ -1,6 +1,8 @@
 package zlh.test.hello;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * 这是我的第一个java程序 <br>
@@ -11,8 +13,10 @@ import org.apache.log4j.Logger;
  */
 public class HelloWorld {
 	
-	private static Logger logger=Logger.getLogger(HelloWorld.class);
-	
+	//log4j
+	//private static Logger logger=Logger.getLogger(HelloWorld.class);
+	//logback
+	private static Logger logger=LoggerFactory.getLogger(HelloWorld.class);
 	public static void main(String[] args) {
 		// //枚举测试
 		// System.out.println(MyColorsEnum.RED.value());
@@ -65,7 +69,7 @@ public class HelloWorld {
 		System.out.println("push to upstream");
 		System.out.println("改了github上的项目名称");
 		
-		logger.fatal("logger.fatal");
+		//logger.fatal("logger.fatal");--log4j才有
 		logger.error("logger.error");
 		logger.warn("logger.warn");
 		logger.info("logger.info");
